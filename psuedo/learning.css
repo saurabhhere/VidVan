@@ -1,0 +1,16 @@
+body{
+    background-color: #50b6bb;
+    color: #f2eaec;
+}
+.videopart{
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    grid-template-rows: 20px 20px 20px;
+    background-color: pink;
+    height: 300px;
+}
+.videopart > .subpart{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
