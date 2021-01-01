@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 * {
+  font-family: Dosis, sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   outline: none;
+}
+
+body {
+  background: url('./Design\ component//Common-bg.png');
+  background-size: cover;
 }

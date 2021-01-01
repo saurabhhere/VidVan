@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+/* .game-container {
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+} */
+
+.quiz-rules-container {
+    height: 80vh;
+    /* background-color: white; */
+}
+
+.rule {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;    
+    background-color: rgb(186, 212, 196);
+    color: black;
+    margin: 20vh auto;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.rules-buttons {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.quit, .continue {
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 20px;
+    color: black;
+    border-radius: 10px;
+}
+
+.rules_heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.info-list {
+    font-family: Crimson-Text, sans-serif;
+    margin: 20px 0px 10px 0;
+    font-size: 1.5rem;
+}
+
+.ruleTime {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.continue {
+    background-color: rgb(216, 255, 214);
+}
+
+.continue:hover {
+    color: white;
+    background-color: green;
+}
+
+.quit:hover {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.63)
+}
+
+@media screen and (max-width: 768px){
+    .info-list {
+        letter-spacing: normal;
+    }
+    .rule {
+        padding: 20px;
+    }
+    .rules_heading {
+        margin-bottom: 0px;
+    }
+    .info-list {
+        font-size: 1.5rem;
+    }
+    .ruleTime{
+        font-size: 1.6rem;
+    }
+    .buttons {
+        width: 100%;
+    }
+}

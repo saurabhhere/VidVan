@@ -1,0 +1,70 @@
+.footer-container {
+    height: 100vh;
+    background-image: url('./bg.png');
+    background-size: cover;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 160px;
+}
+
+.contact-us {
+    text-align: end;
+}
+
+.contact-us-headline {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-us-content {
+    font-size: 28px;
+}
+
+.visiterCountHeadline {
+    text-align: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.visiterCountContent img {
+    margin-left: 20px;
+    transform: scale(1.2);
+}
+
+.footer-icon-flex {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.footer-icon {
+    font-size: 35px;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+}
+
+#instagram-logo:hover {
+    color: #C13584	;
+}
+
+#facebook-logo:hover {
+    color: #355595;
+}
+
+#twitter-logo:hover {
+    color: #00ACEE
+}
+
+#youtube-logo:hover {
+    color: #FF0000;
+}

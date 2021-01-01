@@ -1,0 +1,139 @@
+
+.game-gk-container {
+    padding: 20px;
+    border-radius: 5px;
+    width: 1000px;
+    /* background: url('../../game-bg.png'); */
+
+    background-color: white;
+    margin: 150px auto;
+}
+
+#quiz-game-gk{
+    background-size: cover;
+    /* width: 1500px;
+    height: 800px; */
+    background: url('../game-bg.png');
+}
+
+.choice-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    width: 80%;
+    border-radius: 4px;
+    background: rgb(143, 152, 182);
+    font-size: 2rem;
+    min-width: 80rem;
+}
+
+.question-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 1rem 1.5rem;
+    color: #fff;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 80%;
+}
+
+#question {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+/* Heads up Display */
+#hud {
+    color: black ;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+#hud-item {
+    margin: 15px;
+
+}
+
+#progressText {
+    font-size: 2.5rem;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .choice-container {
+        min-width: 41rem;
+    }
+    #question {
+        display: flex;
+        font-size: 2rem;
+    }
+    .choice-container {
+        /* font-size: 1rem; */
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .time_line {
+        background-color: transparent;
+    }
+    .choice-container {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-height: 700px){
+    #question {
+        width: 90vw;
+        font-size: 2rem;
+    }
+    #hud {
+        height: 80px;
+        width: 90vw;
+        margin: 0 auto;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    #progressText {
+        margin-top: 10px;
+        font-size: 2rem;
+    }
+    #score {
+        font-size: 3rem;
+    }
+    .choice-container {
+        min-width: 31rem;
+        font-size: 3rem;
+    }
+}

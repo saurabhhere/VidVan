@@ -1,0 +1,30 @@
+.memoryGame-container {
+	height: 100vh;
+}
+
+.memoryGame-flex {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.memoryGame-grid{
+	background:#fff;
+	border:#999 1px solid;
+	width:700px;
+	height:700px;
+	padding:24px;
+	margin:10px auto;
+}
+
+.memoryGame-grid > img {
+	margin: 5px;
+}
+
+.memoryGame-score {
+	font-size: 35px;
+	text-align: center;
+}
+
+#memoryGame-result {
+	margin-left: 10px;
+}
