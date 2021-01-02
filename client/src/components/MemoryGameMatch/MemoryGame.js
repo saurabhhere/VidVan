@@ -27,6 +27,8 @@ class Game extends Component{
     }
 
     componentDidMount(){
+        window.scrollTo(0, 0);
+
             const cardArray = [ 
             { name: "chair", img: chair, }, 
             { name: "chair", img: chairw, },

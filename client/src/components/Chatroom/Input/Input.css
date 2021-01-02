@@ -1,4 +1,5 @@
 .chat-form {
+  color: black;
   display: flex;
   border-top: 2px solid #D3D3D3;
 }

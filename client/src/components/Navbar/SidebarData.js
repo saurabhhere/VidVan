@@ -18,22 +18,22 @@ export const SidebarData = [
   },
   {
     title: 'Games & Quizzes',
-    path: '/games',
+    path: '/game',
     icon: <IoGameControllerOutline/>,
     cName: 'nav-text'
   },
   {
     title: 'Chat-room',
-    path: '/chat',
+    path: '/chatroom',
     icon: <IoChatbubbles />,
     cName: 'nav-text'
   },
-  {
-    title: 'News & Magazine',
-    path: '/news',
-    icon: <IoNewspaper />,
-    cName: 'nav-text'
-  },
+  // {
+  //   title: 'News & Magazine',
+  //   path: '/news',
+  //   icon: <IoNewspaper />,
+  //   cName: 'nav-text'
+  // },
   {
     title: 'E-books',
     path: '/ebooks',

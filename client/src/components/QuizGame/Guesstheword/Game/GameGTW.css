@@ -18,11 +18,11 @@ body {
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
-    width: 80%;
+    width: 50%;
     border-radius: 4px;
     background: rgb(143, 152, 182);
     font-size: 2rem;
-    min-width: 80rem;
+    min-width: 50rem !important;
 }
 
 .choice-container:hover {

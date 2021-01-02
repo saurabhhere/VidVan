@@ -23,11 +23,16 @@
     align-items: center;
     flex-direction: column;
     font-size: 2rem;    
-    background-color: rgb(186, 212, 196);
-    color: black;
+    z-index: 1;
+    /* color: black; */
     margin: 20vh auto;
+    background-image: url('./bg-rules.png');
     border-radius: 10px;
+    background-size: 100% 100%;
     padding-top: 20px;
+}
+
+#rules-bg {
 }
 
 .rules-buttons {

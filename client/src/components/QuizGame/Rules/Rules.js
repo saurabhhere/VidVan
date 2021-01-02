@@ -11,12 +11,16 @@ class Rules extends Component {
     setTimeout(() => {window.history.forward()}, 0);  
   }
 
+  componentDidMount(){
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <>
       <Navbar />
       <div className="quiz-rules-container">
-        <div className='rule'>
+        <div id="rules-bg" className='rule'>
           <div className="info-title"><span className="rules_heading">Some Rules of this Quiz</span></div>
           <div className="info-list">
             <div className="info">1. You will have only <span className="ruleTime">60 seconds</span> total.</div>
@@ -25,7 +29,7 @@ class Rules extends Component {
             <div className="info">4. You'll get 10 points on each of your correct answers.</div>
           </div>
           <div className="rules-buttons">
-            <Link to='/' className="quit">Exit Quiz</Link>
+            <Link to='/game' className="quit">Exit Quiz</Link>
             <Link to='/game/quiz/guesstheword/play' className="continue">Guess the word Quiz</Link>
             <Link to='/game/quiz/gk/play' className="continue">GK Quiz</Link>
             <Link to='/game/quiz/meaning/play' className="continue">Word Meaning</Link>

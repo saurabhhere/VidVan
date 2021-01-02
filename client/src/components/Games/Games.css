@@ -1,0 +1,114 @@
+.menubg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./menu.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    /* background-position: left; */
+}
+
+
+:root{
+    --background-dark: #2d3548;
+    --text-light: rgba(255,255,255,0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 50px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+  }
+  
+  
+  .hero-section{
+    align-items: center;
+    display: flex;
+     height: 100vh;
+    justify-content: center;
+    
+  }
+  
+  .card-gridM{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: var(--spacing-l);
+    grid-row-gap: var(--spacing-l);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  @media(min-width: 540px){
+    .card-gridM{
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+ 
+  
+  .cardM{
+    list-style: none;
+    position: relative;
+  }
+  
+  .cardM:before{
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+  }
+  
+  .card__backgroundM{
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--spacing-l);
+    bottom: 0;
+    filter: brightness(0.75) saturate(1.2) contrast(0.85);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: 
+      filter 200ms linear,
+      transform 200ms linear;
+  }
+
+  
+  
+  .cardM:hover .card__backgroundM{
+    transform: scale(1.05) translateZ(0);
+  }
+  
+  .card-gridM:hover > .cardM:not(:hover) .card__backgroundM{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+  }
+  
+  .card__contentM{
+    left: 0;
+    padding: var(--spacing-l);
+    position: absolute;
+    top: 0;
+    font-family: SeoulHangang CBL;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 206px;
+    line-height: 96px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+  }
+  
+  
+  .card__headingM{
+    color: var(--text-lighter);
+    font-family: SeoulHangang CBL;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    line-height: 1.4;
+    word-spacing: 100vw;
+  }

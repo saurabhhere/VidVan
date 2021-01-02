@@ -8,6 +8,8 @@ export default function SignIn() {
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
 
+  window.scrollTo(0, 0);
+
   return (
     <>
     <Navbar />

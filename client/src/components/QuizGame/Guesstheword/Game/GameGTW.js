@@ -21,6 +21,10 @@ class GameGTW extends Component {
         setTimeout('this.preback', 0);
     }
 
+    componentDidMount(){
+        window.scrollTo(0, 0);
+    }
+
     preback() {
         window.history.forward();
     }

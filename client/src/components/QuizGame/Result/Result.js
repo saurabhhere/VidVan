@@ -12,6 +12,10 @@ class Result extends Component {
         }
     }
 
+    componentDidMount(){
+        window.scrollTo(0, 0);
+      }
+
     handleChange = (e) => {
         this.setState({
             name: e.target.value
