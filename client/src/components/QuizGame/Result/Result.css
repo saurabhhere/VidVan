@@ -1,16 +1,36 @@
 #end {
-    background-color: burlywood;
+    background-color:transparent;
+    margin-bottom: 400px;
+    margin-left: 200px;
+    
+}
+#end-text{
+    color: green;
+    
+}
+.result{
+    height:80vh;
 }
 
-.quiz-result-container {
-    width: 100vw;
-    height: 88vh;
+.result-container {
+    width: 1300px;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
-    margin: 0 auto;
-    padding: 2rem;  
+    margin-top: 80px;;
+
+}
+.result-pic{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    width: 1050px;
+    height: 600px; 
+    background-image: url('./gb3.png');
+    margin-left: 400px;
+    background-position: center;
 }
 
 .result_btn {
@@ -33,7 +53,9 @@
 
 #finalScore {
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
+    color:green; 
+    margin-bottom: 100px; 
 }
 
 #end-text {
@@ -42,11 +64,19 @@
 }
 
 #playAgainBtn {
-    background-color: rgb(233, 230, 38);
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
 }
 
 #goHomeBtn {
-    background-color: rgb(38, 132, 255);    
+    background-color:red;
+    border-radius: 10px; 
+    color: white; 
+    font-size: 20px;
+
+      
 }
 
 #goHomeBtn:hover {

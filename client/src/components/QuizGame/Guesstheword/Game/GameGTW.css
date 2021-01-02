@@ -5,27 +5,47 @@ body {
     padding: 20px;
     border-radius: 5px;
     width: 1000px;
-    /* background: url('../../game-bg.png'); */
+    height: 300vh;
+    background-color: transparent;
+    margin-left: 60px;
 
-    background-color: white;
-    margin: 150px auto;
+    background-position: center;
+    
 }
+.gtw-pic{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-image: url('./gb2.png');
+    background-size: cover;
+    width: 1310px;
+    height: 750px;
+    background-position: center;
+    background-color: #ffffff00;
+    margin-left: 300px;
+}
+
+    
 
 .quiz-gtw-content-flex {
     display: flex;
 }
 
-.choice-container {
+.choice-containers {
     display: flex;
-    margin-bottom: 0.8rem;
-    width: 80%;
+    height: 73px;
+    justify-items: center;
+    justify-self: center;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    width: 540px;
     border-radius: 4px;
     background: rgb(143, 152, 182);
-    font-size: 2rem;
-    min-width: 80rem;
+    font-size: 3rem;
+    min-width: 5rem;
 }
 
-.choice-container:hover {
+.choice-containers:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
     transform: scale(1.02);
@@ -34,17 +54,20 @@ body {
 
 .choice-prefix {
     padding: 1rem 1.5rem;
-    color: #fff;
+    color: #ccc;
 }
 
 .choice-text {
     padding: 2rem;
     width: 80%;
+
 }
 
 .choice-image {
-    width: 150px;
-    height: 150px;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
 .time_line {
@@ -80,15 +103,15 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 768px){
-    .choice-container {
+@media screen and (max-width: 500px){
+    .choice-containers {
         min-width: 41rem;
     }
     #question {
         display: flex;
         font-size: 2rem;
     }
-    .choice-container {
+    .choice-containers {
         /* font-size: 1rem; */
         width: 220px;
     }
@@ -98,8 +121,11 @@ body {
     .time_line {
         background-color: transparent;
     }
-    .choice-container {
+    .choice-containers {
         font-size: 3rem;
+    }
+    .gtw-pic{
+        width: 100%;
     }
 }
 
@@ -122,8 +148,8 @@ body {
     #score {
         font-size: 3rem;
     }
-    .choice-container {
+    .choice-containers {
         min-width: 31rem;
         font-size: 3rem;
     }
-}
+} 

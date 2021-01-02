@@ -1,60 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
-/* .game-container {
-    width: 100vw;
-    height: 88vh;
+
+.game-rules-pic{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 2rem;
-} */
+    flex-direction: column;
+    background-image: url('./gbrules.png');
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    height: 700px;
+    margin-top: 1rem;
+    background-color: #ffffff00;
+    
+}
 
 .quiz-rules-container {
-    height: 80vh;
-    /* background-color: white; */
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff00;
+    background-position: center;
+    margin-left: 40rem;
+    margin-right: 20rem;
+    height: 100vh;
+    margin-top: 14rem;;
 }
 
 .rule {
     display: flex;
-    width: 600px;
+    width: 800px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 2rem;    
-    background-color: rgb(186, 212, 196);
+    font-size: 2.3rem;    
+    background-color: #ffffff00;
     color: black;
-    margin: 20vh auto;
     border-radius: 10px;
-    padding-top: 20px;
+    
 }
 
 .rules-buttons {
     display: flex;
-    width: 400px;
-    justify-content: space-around;
-    margin: 20px;
+    width: 580px;
+    margin-top: 80px;
+    justify-content:space-around;
+    margin-right: 100px;
 }
 
 .quit, .continue {
     text-decoration: none;
     background-color: white;
-    padding: 5px 20px;
+    padding: 20px 10px;
     color: black;
     border-radius: 10px;
 }
 
 .rules_heading {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 4rem;
+    margin: 180px;
+    
 }
 
 .info-list {
     font-family: Crimson-Text, sans-serif;
-    margin: 20px 0px 10px 0;
-    font-size: 1.5rem;
+    margin: 50px 10px 0.1px 20px;
+    font-size: 2.5rem;
+    background-position: center;
 }
+
 
 .ruleTime {
     font-size: 2rem;
@@ -65,7 +79,9 @@
 .continue {
     background-color: rgb(216, 255, 214);
 }
-
+.quit{
+     background-color:pink;
+}
 .continue:hover {
     color: white;
     background-color: green;
@@ -73,12 +89,16 @@
 
 .quit:hover {
     color: white;
-    background-color: rgba(255, 0, 0, 0.63)
+    background-color: red;
 }
 
-@media screen and (max-width: 768px){
+@media screen  and (max-width: 600px){
     .info-list {
         letter-spacing: normal;
+    }
+    .game-rules-pic{
+        width: 100%;
+        margin: auto;
     }
     .rule {
         padding: 20px;
