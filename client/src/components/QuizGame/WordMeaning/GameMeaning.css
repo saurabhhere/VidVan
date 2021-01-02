@@ -1,25 +1,31 @@
 
-.game-gk-container {
+.word-container {
     padding: 20px;
     border-radius: 5px;
     width: 1000px;
-    /* background: url('../../game-bg.png'); */
-
-    background-color: white;
+    padding-top: 150px;;
+    background-color: transparent;
     margin: 150px auto;
+    margin-top: 10px;;
+}
+.word{
+    height:150vh;
 }
 
-#quiz-game-gk{
+.word-pic{
     background-size: cover;
-    /* width: 1500px;
-    height: 800px; */
-    background: url('../game-bg.png');
+    width: 1200px;
+    height: 750px; 
+    background-image: url('./gb2.png');
+    margin-left: 300px;
+    background-position: center;
 }
 
 .choice-container {
     display: flex;
     align-items: center;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.em;
+    margin-top: 15px;
     width: 80%;
     border-radius: 4px;
     background: rgb(143, 152, 182);

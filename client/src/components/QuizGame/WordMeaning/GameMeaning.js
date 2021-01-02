@@ -20,10 +20,6 @@ class GameMeaning extends Component {
         setTimeout('this.preback', 0);
     }
 
-    componentDidMount(){
-        window.scrollTo(0, 0);
-    }
-
     preback() {
         window.history.forward();
     }
@@ -96,45 +92,46 @@ class GameMeaning extends Component {
 
         return (
             <div>
-            <Navbar />
-                <div className="game-gk-container">
-                    <div id="quiz-game-gk" className="justify-center flex-column">
-                        <div id="hud">
-                            <div className="hud-item">
-                                <p id="progressText" className="hud-prefix">
-                                    Time Left: {this.state.timeLeft}s
+                <Navbar />
+                <div className="word-pic">
+                    <div className="word-container">
+                        <div className="justify-center flex-column">
+                            <div id="hud">
+                                <div className="hud-item">
+                                    <p id="progressText" className="hud-prefix">
+                                        Time Left: {this.state.timeLeft}s
                                 </p>
-                            </div>
-                            <div className="hud-item">
-                                <p className="hud-prefix">
-                                    Score
+                                </div>
+                                <div className="hud-item">
+                                    <p className="hud-prefix">
+                                        Score
                                 </p>
-                                <h1 className="hud-main-text" id="score">
-                                    {this.state.score}
-                                </h1>
+                                    <h1 className="hud-main-text" id="score">
+                                        {this.state.score}
+                                    </h1>
+                                </div>
                             </div>
-                        </div>
-                        <div className="question-flex">
-                        <h1 className="" id="question">{this.state.currentQuestion.question}</h1>
-                        <div className="choice-container">
-                            <p className="choice-prefix">A</p>
-                            <p className="choice-text" data-number="1" onClick={this.checkAnswer}>{this.state.currentQuestion.choice1}</p>
-                        </div>
-                        <div className="choice-container">
-                            <p className="choice-prefix">B</p>
-                            <p className="choice-text" data-number="2" onClick={this.checkAnswer}>{this.state.currentQuestion.choice2}</p>
-                        </div>
-                        <div className="choice-container">
-                            <p className="choice-prefix">C</p>
-                            <p className="choice-text" data-number="3" onClick={this.checkAnswer}>{this.state.currentQuestion.choice3}</p>
-                        </div>
-                        <div className="choice-container">
-                            <p className="choice-prefix">D</p>
-                            <p className="choice-text" data-number="4" onClick={this.checkAnswer}>{this.state.currentQuestion.choice4}</p>
-                        </div>
+                            <div className="question-flex">
+                                <h1 className="" id="question">{this.state.currentQuestion.question}</h1>
+                                <div className="choice-container">
+                                    <p className="choice-prefix">A</p>
+                                    <p className="choice-text" data-number="1" onClick={this.checkAnswer}>{this.state.currentQuestion.choice1}</p>
+                                </div>
+                                <div className="choice-container">
+                                    <p className="choice-prefix">B</p>
+                                    <p className="choice-text" data-number="2" onClick={this.checkAnswer}>{this.state.currentQuestion.choice2}</p>
+                                </div>
+                                <div className="choice-container">
+                                    <p className="choice-prefix">C</p>
+                                    <p className="choice-text" data-number="3" onClick={this.checkAnswer}>{this.state.currentQuestion.choice3}</p>
+                                </div>
+                                <div className="choice-container">
+                                    <p className="choice-prefix">D</p>
+                                    <p className="choice-text" data-number="4" onClick={this.checkAnswer}>{this.state.currentQuestion.choice4}</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         );
