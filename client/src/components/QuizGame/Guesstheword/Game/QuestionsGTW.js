@@ -72,15 +72,6 @@ const questions = [
 },
 {
     question: "Name of the animal in Sanskrit is",
-    imgSrc: "https://lh3.googleusercontent.com/proxy/RERMza-E9SXjsjF5ugbBjW0Sa3wuQp-QiwzdE3DE7w9Jo68n5MIWBd79cOPWLvHdDwEPpT_PCMreepMAXwdbAst3BtkgnpeoJ-am_rBgKDvNjSNTNou5159MVUqic3AspaH5Zg",
-    choice1: 'वृकः',
-    choice2: 'सिंहः',
-    choice3: 'गजः',
-    choice4: 'मरालः', 
-    answer: 2,
-},
-{
-    question: "Name of the animal in Sanskrit is",
     imgSrc: "https://i.guim.co.uk/img/media/8f02bb49224d9a94699b75213664bf898617c062/0_288_5315_3189/master/5315.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=89721e1224115e05a05203a62cf93f7c",
     choice1: 'भल्लूकः',
     choice2: 'वृकः',

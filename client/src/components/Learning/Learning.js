@@ -7,7 +7,8 @@ import './Learning.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Grammar from './Grammar';
 import Navbar from '../Navbar/Navbar';
-
+import {animateScroll as scroll} from 'react-scroll';
+import {FiArrowUp} from 'react-icons/fi'
 
 class Learning extends Component{
     constructor(props){
@@ -16,6 +17,10 @@ class Learning extends Component{
 
     componentDidMount(){
     window.scrollTo(0, 0);
+    }
+
+    scrollToTop=()=>{
+        scroll.scrollToTop();
     }
 
     render(){
@@ -113,6 +118,7 @@ class Learning extends Component{
             <div className="learnH">व्याकरण</div>
             <Grammar />
             </div>
+            <div onClick={this.scrollToTop} className="top-button"><FiArrowUp /></div>
             </div>
                 
            

@@ -5,6 +5,7 @@
 .memoryGame-flex {
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
 }
 
 .memoryGame-grid{
@@ -27,4 +28,18 @@
 
 #memoryGame-result {
 	margin-left: 10px;
+}
+
+.memoryGame-heading {
+	text-align: center;
+	font-size: 40px;
+}
+
+.memoryGame-instr-heading {
+	text-align: center;
+	font-size: 24px;
+}
+
+.memoryGame-instr-content {
+	font-size: 16px;
 }

@@ -17,71 +17,6 @@ class Home extends Component {
     
     componentDidMount(){
         window.scrollTo(0, 0);
-    
-        
-        // var Animation = function({ offset } = { offset: 10 }) {
-        //     var _elements;
-          
-        //     var windowTop = offset * window.innerHeight / 100;
-        //     var windowBottom = window.innerHeight - windowTop;
-        //     var windowLeft = 0;
-        //     var windowRight = window.innerWidth;
-          
-        //     function start(element) {
-        //       element.style.animationDelay = element.dataset.animationDelay;
-        //       element.style.animationDuration = element.dataset.animationDuration;
-        //       element.classList.add(element.dataset.animation);
-        //       element.dataset.animated = "true";
-        //     }
-          
-        //     function isElementOnScreen(element) {
-        //       var elementRect = element.getBoundingClientRect();
-        //       var elementTop =
-        //         elementRect.top + parseInt(element.dataset.animationOffset) ||
-        //         elementRect.top;
-        //       var elementBottom =
-        //         elementRect.bottom - parseInt(element.dataset.animationOffset) ||
-        //         elementRect.bottom;
-        //       var elementLeft = elementRect.left;
-        //       var elementRight = elementRect.right;
-          
-        //       return (
-        //         elementTop <= windowBottom &&
-        //         elementBottom >= windowTop &&
-        //         elementLeft <= windowRight &&
-        //         elementRight >= windowLeft
-        //       );
-        //     }
-          
-        //     function update() {
-        //       _elements = document.querySelectorAll(
-        //         "[data-animation]:not([data-animated])"
-        //       );
-        //       checkElementsOnScreen(_elements);
-        //     }
-        //     function checkElementsOnScreen(els = _elements) {
-        //       for (var i = 0, len = els.length; i < len; i++) {
-        //         if (els[i].dataset.animated) continue;
-          
-        //         isElementOnScreen(els[i]) && start(els[i]);
-        //       }
-        //     }
-          
-        //     window.addEventListener("load", update, false);
-        //     window.addEventListener("scroll", () => checkElementsOnScreen(_elements), { passive: true });
-        //     window.addEventListener("resize", () => checkElementsOnScreen(_elements), false);
-          
-        //     return {
-        //       start,
-        //       isElementOnScreen,
-        //       update
-        //     };
-        //   };
-          
-        //   var options = {
-        //     offset: 20 //percentage of window
-        //   };
-        //   var animation = new Animation(options);
     }
 
     scrollToTop=()=>{
@@ -128,33 +63,36 @@ class Home extends Component {
                             </LinkRoute>
                             <LinkRoute to='/ebooks' className="frontpage-card animatable fadeIn"   data-animation="zoomIn" data-animation-delay="900ms">
                                 <img src={bookLogo} className="frontpage-card-logo" />
-                                पुस्तकस्थाम
+                                ई-पुस्तकम्
                             </LinkRoute>
                         </div>
                 </section>
                 <section className="cd-section section3">
-                        <h3 className="frontpage-news-heading">News And Magazines</h3>
+                        <h3 className="frontpage-news-heading">प्रसारमाध्यमानि वार्ताश्च </h3>
                     <div className="news-section-flex">
                     <div>
                     <iframe className="news-iframe" width="620" height="490" src="https://www.youtube.com/embed/videoseries?list=PLxx0m3vtiqMZFiQHDHKnhK6ObQo-Xhr4u&index=1&autoplay=0&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" allowfullscreen ></iframe>
                     </div>
                     <div className="magazine-flex">
-                        <div>
+                        <div className="e-newspaper">
                         <a href="https://www.vishvasyavrutantam.com/ENewspaper" target="_blank">
                         <div className="magazine-paper"></div>
                         <div className="magazine-paper-heading">E-newspaper</div>
                         </a>
                         </div>
                         <div className="magazine-row">
+                        <div className="e-newspaper">
                         <a href="http://www.sanskrit.nic.in/news_letters.php" target="_blank"><div id="sanskritavarta" className="magazine"></div>
                         <div className="magazine-heading">संस्कृतावतार</div>
-                        </a>
+                        </a></div>
+                        <div className="e-newspaper">
                         <a href="https://www.chandamama.in/sanskrit/sanskrit.php" target="_blank"><div id="chandamama" className="magazine"></div>
                         <div className="magazine-heading">चन्दामामा</div>
-                        </a>
+                        </a> </div>
+                        <div className="e-newspaper">
                         <a href="http://www.samprativartah.in/" target="_blank"><div id="samprativartah" className="magazine"></div>
                         <div className="magazine-heading">सम्प्रतिवार्ताह्</div>
-                        </a>
+                        </a></div>
                         </div>
                     </div>
                     </div>

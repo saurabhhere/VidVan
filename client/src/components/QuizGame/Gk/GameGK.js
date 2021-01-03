@@ -97,6 +97,8 @@ class GameGK extends Component {
         return (
             <div>
             <Navbar />
+            <div className="gk">
+                <div className="quiz-gk-pic">
                 <div className="game-gk-container">
                     <div id="quiz-game-gk" className="justify-center flex-column">
                         <div id="hud">
@@ -134,7 +136,8 @@ class GameGK extends Component {
                         </div>
                         </div>
                     </div>
-
+                    </div>
+                </div>
                 </div>
             </div>
         );

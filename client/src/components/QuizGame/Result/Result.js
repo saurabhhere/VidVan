@@ -12,9 +12,9 @@ class Result extends Component {
         }
     }
 
-    componentDidMount(){
+    componentDidMount() {
         window.scrollTo(0, 0);
-      }
+    }
 
     handleChange = (e) => {
         this.setState({
@@ -25,15 +25,19 @@ class Result extends Component {
     render() {
         return (
             <>
-            <Navbar />
-            <div className="quiz-result-container">
-                <div id="end" className="flex-center flex-column">
-                    <h1 id="finalScore">{this.state.score}</h1>
-                        <h2 id="end-text">Your score</h2>
-                    <Link to="/game/quiz/rules" id="playAgainBtn" className="result_btn">Play Again</Link>
-                    <Link to="/learn" id="goHomeBtn" className="result_btn">Go Home</Link>
+                <Navbar />
+                <div className="result">
+                    <div className="result-pic">
+                    <div className="result-container">
+                        <div id="end" className="flex-center flex-column">
+                            <h1 id="finalScore">{this.state.score}</h1>
+                            <h2 id="end-text">Your score</h2>
+                            <Link to="/game/quiz/rules" id="playAgainBtn" className="result_btn">Play Again</Link>
+                            <Link to="/learn" id="goHomeBtn" className="result_btn">Go Home</Link>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-            </div>
             </>
         );
     }

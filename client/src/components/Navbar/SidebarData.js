@@ -2,10 +2,10 @@ import React from 'react';
 import * as AiIcons from 'react-icons/ai';
 import {BiBook} from 'react-icons/bi';
 import {SiMinds} from 'react-icons/si'
-import {IoGameControllerOutline, IoChatbubbles, IoNewspaper} from 'react-icons/io5'
+import {IoGameControllerOutline, IoChatbubbles} from 'react-icons/io5'
 export const SidebarData = [
   {
-    title: 'Home',
+    title: 'मुखपृष्ठम्',
     path: '/',
     icon: <AiIcons.AiFillHome />,
     cName: 'nav-text'
@@ -28,14 +28,8 @@ export const SidebarData = [
     icon: <IoChatbubbles />,
     cName: 'nav-text'
   },
-  // {
-  //   title: 'News & Magazine',
-  //   path: '/news',
-  //   icon: <IoNewspaper />,
-  //   cName: 'nav-text'
-  // },
   {
-    title: 'E-books',
+    title: 'ई-पुस्तकम्',
     path: '/ebooks',
     icon: <BiBook />,
     cName: 'nav-text'

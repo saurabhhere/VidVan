@@ -98,9 +98,10 @@ class GameGTW extends Component {
         return (
             <div>
             <Navbar />
+            <div className="gtw-pic">
                 <div className="game-gtw-container">
                     <div id="game" className="justify-center flex-column">
-                        <div id="hud">
+                        <div id="gtw-hud">
                             <div className="hud-item">
                                 <p id="progressText" className="hud-prefix">
                                     Time Left: {this.state.timeLeft}s
@@ -115,8 +116,7 @@ class GameGTW extends Component {
                                 </h1>
                             </div>
                         </div>
-                        {/* <div className='time_line'>.</div> */}
-                        <h1 className="" id="question">{this.state.currentQuestion.question}</h1>
+                        <h1 id="question">{this.state.currentQuestion.question}</h1>
                         <div className="quiz-gtw-content-flex">
                         <div>
                         <img src={this.state.currentQuestion.imgSrc} className="choice-image"/>
@@ -142,7 +142,7 @@ class GameGTW extends Component {
                         </div>
                         
                     </div>
-
+</div>
                 </div>
             </div>
         );
