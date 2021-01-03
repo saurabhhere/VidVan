@@ -79,6 +79,7 @@
 }
 .result{
     height:80vh;
+    margin-left: -100px;
 }
 
 .result-container {

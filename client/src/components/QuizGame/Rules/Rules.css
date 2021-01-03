@@ -11,8 +11,9 @@
 
 .quiz-rules-container {
     background-color: #ffffff00;
-    margin-left: 500px;
-    height: 90vh
+    margin-left: 380px;
+    height: 90vh;
+    color: #ffffff;
 }
 
 .rule {

@@ -2,6 +2,7 @@
     height: 100vh;
     background-image: url('./bg-footer.png');
     background-size: cover;
+    color: #ffffff;
 }
 
 .footer-flex {

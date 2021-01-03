@@ -3,7 +3,10 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1A1A1D;
+  width: 100%;
+    background-image: url('./menu.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .chat-container {
@@ -13,8 +16,8 @@
   justify-content: space-between;
   background: #FFFFFF;
   border-radius: 8px;
-  height: 60%;
-  width: 35%;
+  height: 80%;
+  width:50%;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

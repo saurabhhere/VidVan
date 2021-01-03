@@ -1,15 +1,20 @@
 .joinOuterContainer {
   display: flex;
   justify-content: center;
-  text-align: center;
-  height: 80vh;
   align-items: center;
+  text-align: center;
+  height: 700px;
+  width: 100%;
+    background-image: url('./g2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   /* background-color: #1A1A1D; */
 }
 
 .joinInnerContainer {
   color: black;
   width: 20%;
+  font-size: 2em;
 }
 
 .joinInput {
@@ -29,7 +34,7 @@
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #2979FF;
+    background: #52388d;
     padding: 20px;
     border-radius: 5px;
     display: inline-block;

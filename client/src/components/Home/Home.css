@@ -2,6 +2,10 @@
     height: 100vh;
 }
 
+.home-container{
+  color: #ffffff;
+}
+
 /* Section 1 */
 
 .section1 {
@@ -17,7 +21,8 @@
   text-align: left;
   flex-direction: column;
   font-size: 32px;
-  margin-top: 400px;
+  line-height: 100px;
+  margin-top: 200px;
   margin-left: 80px;
 }
 
@@ -28,7 +33,7 @@
 .frontpage-start-btn {
   text-decoration: none;
   text-align: center;
-  margin: 35px;
+  margin-left: 200px;
   padding: 10px 30px;
   border-radius: 5px;
   background-color: transparent;

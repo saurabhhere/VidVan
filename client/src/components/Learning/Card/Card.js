@@ -52,7 +52,7 @@ class Card2 extends Component{
           <div class="box">
     <div class="carder">
       <div class="imgBx">
-      <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/v9hJJlwxmPM?list=PLNzsbZjYvXf86efy9gd8y9jJQ54ey6Eqa" frameborder="0" allowfullscreen></iframe>
+      <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/v9hJJlwxmPM?list=PLNzsbZjYvXf86efy9gd8y9jJQ54ey6Eqa" frameborder="0" allowfullscreen="true"></iframe>
       </div>
       <div class="details">
           <h2>Lecture 4<br /></h2>

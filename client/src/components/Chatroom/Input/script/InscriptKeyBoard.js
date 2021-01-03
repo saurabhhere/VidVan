@@ -915,7 +915,7 @@ RTSPL.keyboard.prototype.wireEvents = function () {
 {
         $('body').append('<div id="keyboard"></div>');
         var AppendArray = [];
-        $(document).find('.input').each(function () {
+        $(document).find('.chat-input').each(function () {
             AppendArray.push(this.id);
         });
 
