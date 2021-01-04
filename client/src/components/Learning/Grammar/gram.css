@@ -1,7 +1,5 @@
 .foo{
-    width: 100%;
-    background: url('./g1.png') no-repeat center fixed;
-    background-size: cover;
+   
     font-family: SeoulHangang CBL;
     font-style: normal;
     font-weight:normal;
@@ -10,6 +8,13 @@
     color: #f9f2ff;
     text-align: left;
     padding: 100px 300px;
+}
+
+.gramTop{
+  width: 100%;
+  background: url('./g1.png') no-repeat fixed;
+  background-size: cover;
+
 }
 
 table {

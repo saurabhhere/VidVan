@@ -12,7 +12,7 @@ class Karak extends Component{
       }
     render(){
         return(
-            <>
+            <div className="gramTop">
             <Navbar />
             <div className="foo">
                                 <h1 className="paragraph">कारक प्रकरण </h1>
@@ -86,7 +86,7 @@ class Karak extends Component{
                 </li>
                 </ol>
             </div>
-            </>
+            </div>
         )
     }
 }

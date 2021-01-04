@@ -26,8 +26,8 @@ class Learning extends Component{
     render(){
         return(
             <div>
+                <div className="learnTop">
                 <Navbar />
-            <div className="grammar">
             <div className="learnH">स्वाध्याय</div>
             <Carousel>
                 <Carousel.Item>

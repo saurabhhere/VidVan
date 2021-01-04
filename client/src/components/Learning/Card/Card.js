@@ -510,7 +510,7 @@ class Card13 extends Component{
 
      <div class="carder">
        <div class="imgBx">
-          <img src="https://images.unsplash.com/photo-1548094878-84ced0f6896d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images" />
+       <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HnWisddD9dc?list=PLNzsbZjYvXf-15Tg9RcMNNuzX0ZvxHZ_u" frameborder="0" allowFullScreen="true"></iframe>
        </div>
        <div class="details">
           <h2>Lecture 39<br /></h2>
@@ -530,21 +530,14 @@ class Card14 extends Component{
   render(){
       return(
           <div class="box">
-    <div class="carder">
-      <div class="imgBx">
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HnWisddD9dc?list=PLNzsbZjYvXf-15Tg9RcMNNuzX0ZvxHZ_u" frameborder="0" allowFullScreen="true"></iframe>
-           </div>
-      <div class="details">
-          <h2>Lecture 40<br /></h2>
-      </div>
-    </div>
+  
   
      <div class="carder">
        <div class="imgBx">
        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ydAYOIf47yg?list=PLNzsbZjYvXf-15Tg9RcMNNuzX0ZvxHZ_u" frameborder="0" allowFullScreen="true"></iframe>
            </div>
        <div class="details">
-          <h2>Lecture 41</h2>
+          <h2>Lecture 40</h2>
         </div>
      </div>
 
@@ -553,9 +546,17 @@ class Card14 extends Component{
        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5zIDUJy118U?list=PLNzsbZjYvXf-15Tg9RcMNNuzX0ZvxHZ_u" frameborder="0" allowFullScreen="true"></iframe>
            </div>
        <div class="details">
-          <h2>Lecture 42<br /></h2>
+          <h2>Lecture 41<br /></h2>
         </div>
      </div>
+     <div class="carder">
+      <div class="imgBx">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6oGFtQBHzns" frameborder="0" allowFullScreen="true"></iframe>
+           </div>
+      <div class="details">
+          <h2>Lecture 42<br /></h2>
+      </div>
+    </div>
 
 </div>
       )

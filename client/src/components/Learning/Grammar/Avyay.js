@@ -14,7 +14,7 @@ class Avyay extends Component {
 
     render() {
         return (
-            <>
+            <div className="gramTop">
             <Navbar />
             <div className="foo">
                 <h1 className="paragraph">अव्यय </h1>
@@ -42,15 +42,15 @@ class Avyay extends Component {
                     <li>विविध – अव्यय – अनेकशः, पञ्चकृत्व आदि।</li>
                 </ul><br /><br />
                 यहाँ कुछ अव्ययों (निर्धारित पाठ्यक्रमानुसार) के अर्थ और उदाहरण प्रस्तुत किये जा रहे हैं-<br /><br />
-                <p><img class="alignnone size-full wp-image-77061" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-1.png" alt="Avyay In Sanskrit 1" width="626" height="466" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-1.png 626w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-1-300x223.png 300w" sizes="(max-width: 626px) 100vw, 626px" /><br />
-                    <img class="alignnone size-full wp-image-77062" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-2.png" alt="Avyay In Sanskrit 2" width="622" height="711" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-2.png 622w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-2-262x300.png 262w" sizes="(max-width: 622px) 100vw, 622px" /><br />
+                <p><img class="alignnone size-full wp-image-77061" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-1.png" alt="Avyay In Sanskrit 1" width="630" height="466" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-1.png 626w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-1-300x223.png 300w" sizes="(max-width: 626px) 100vw, 626px" /><br />
+                    <img class="alignnone size-full wp-image-77062" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-2.png" alt="Avyay In Sanskrit 2" width="630" height="711" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-2.png 622w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-2-262x300.png 262w" sizes="(max-width: 622px) 100vw, 622px" /><br />
                     <img class="alignnone size-full wp-image-77064" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-3.png" alt="Avyay In Sanskrit 3" width="630" height="290" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-3.png 630w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-3-300x138.png 300w" sizes="(max-width: 630px) 100vw, 630px" /><br />
-                    <img class="alignnone size-full wp-image-77065" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-4.png" alt="Avyay In Sanskrit 4" width="628" height="835" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-4.png 628w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-4-226x300.png 226w" sizes="(max-width: 628px) 100vw, 628px" /><br />
-                    <img class="alignnone size-full wp-image-77066" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-5.png" alt="Avyay In Sanskrit 5" width="615" height="186" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-5.png 615w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-5-300x91.png 300w" sizes="(max-width: 615px) 100vw, 615px" /><br />
-                    <img class="alignnone size-full wp-image-77067" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-6.png" alt="Avyay In Sanskrit 6" width="592" height="237" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-6.png 592w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-6-300x120.png 300w" sizes="(max-width: 592px) 100vw, 592px" />
+                    <img class="alignnone size-full wp-image-77065" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-4.png" alt="Avyay In Sanskrit 4" width="630" height="835" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-4.png 628w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-4-226x300.png 226w" sizes="(max-width: 628px) 100vw, 628px" /><br />
+                    <img class="alignnone size-full wp-image-77066" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-5.png" alt="Avyay In Sanskrit 5" width="630" height="186" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-5.png 615w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-5-300x91.png 300w" sizes="(max-width: 615px) 100vw, 615px" /><br />
+                    <img class="alignnone size-full wp-image-77067" src="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-6.png" alt="Avyay In Sanskrit 6" width="630" height="237" srcset="https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-6.png 592w, https://www.aplustopper.com/wp-content/uploads/2020/05/Avyay-In-Sanskrit-6-300x120.png 300w" sizes="(max-width: 592px) 100vw, 592px" />
                 </p>
             </div>
-            </>
+            </div>
         )
     }
 }

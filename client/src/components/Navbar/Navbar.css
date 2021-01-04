@@ -81,6 +81,7 @@
 
   .nav-text a:hover {
     border-bottom: 2px solid #fff;
+    text-decoration: none;
   }
 
   .nav-menu-items {

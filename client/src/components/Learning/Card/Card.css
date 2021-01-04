@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   margin: 100px 20px;
+  margin-left: -5px;
   width: 1530px;
 }
 .carder{

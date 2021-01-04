@@ -14,7 +14,7 @@ class Sandhi extends Component{
 
     render(){
         return(
-            <>
+            <div className="gramTop">
             <Navbar />
             <div className="foo">
                 
@@ -128,7 +128,7 @@ class Sandhi extends Component{
                 </li>
                 </ol>
             </div>
-            </>
+            </div>
         )
     }
 }

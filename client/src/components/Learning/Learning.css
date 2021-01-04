@@ -2,23 +2,12 @@
     background: url('./learn.png');
     background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 1200px;
+  height:1200 px;
   background-position: 0% 0%;
   display: flex;
   flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.learnS{
-    font-family: SeoulHangang CBL;
-    font-style: normal;
-    font-weight:bold;
-    font-size: 30px;
-    line-height: 70px;
-    color: #ffffff;
-    padding-top: 50px;
-    text-align: center;
 }
 
 .learnH{
@@ -33,29 +22,10 @@
     text-decoration: underline
 }
 
-#learn{
-margin-top:50px;  
-margin-left: 100px;
-font-family: SeoulHangang CBL;
-font-style: normal;
-font-weight: normal;
-font-size: 56px;
-line-height: 96px;
-/* identical to box height */
-
-
-color:wheat;
-}
-.carousel-indicators {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.learnTop{
+    background: url('../../Common-bg.png');
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0% 0%;
 }
 
-.grammar{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}

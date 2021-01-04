@@ -14,7 +14,7 @@ class Pratyay extends Component{
 
     render(){
         return(
-            <>
+            <div className="gramTop">
             <Navbar />
             <div className="foo">
                                 <h1 className="paragraph">प्रत्यय</h1>
@@ -50,7 +50,7 @@ class Pratyay extends Component{
                 </li>
                 </ol>
             </div>
-            </>
+            </div>
         )
     }
 }

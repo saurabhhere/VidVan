@@ -13,7 +13,7 @@ class Samas extends Component {
 
     render() {
         return (
-            <>
+            <div className="gramTop">
                 <Navbar />
                 <div className="foo">
                     <h1 className="paragraph">समास</h1>
@@ -91,7 +91,7 @@ class Samas extends Component {
                         </li>
                     </ol>
                 </div>
-            </>
+            </div>
         )
     }
 }

@@ -11,19 +11,19 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Learn',
+    title: 'अध्ययन',
     path: '/learn',
     icon: <SiMinds />,
     cName: 'nav-text'
   },
   {
-    title: 'Games & Quizzes',
+    title: 'क्रीडा परीक्ष् च',
     path: '/game',
     icon: <IoGameControllerOutline/>,
     cName: 'nav-text'
   },
   {
-    title: 'Chat-room',
+    title: 'संलप्-कक्षः',
     path: '/chatroom',
     icon: <IoChatbubbles />,
     cName: 'nav-text'
