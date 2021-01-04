@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../../Navbar/Navbar';
-import './GameMeaning.css';
+import '../Guesstheword/GameGTW.css';
 import questions from './wordmeaning';
 
 class GameMeaning extends Component {

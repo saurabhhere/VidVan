@@ -1,24 +1,10 @@
 import React, { Component } from 'react';
-import countapi from 'countapi-js';
 import './Footer.css';
 import {AiFillYoutube, AiOutlineTwitter, AiFillFacebook, AiFillInstagram} from 'react-icons/ai'
 class Footer extends Component {
     constructor(props) {
         super(props);
-        // this.state = {
-        //     visiterCount: ''
-        // }
     }
-
-
-    // componentDidMount() {
-    //     countapi.visits('global').then((result) => {
-    //         this.setState({
-    //             visiterCount: result.value
-    //         })
-    //         console.log(result.value);
-    //     });
-    // }
 
     render() {
         return (
@@ -29,8 +15,6 @@ class Footer extends Component {
                             Visitors
                         </div>
                         <div className="visiterCountContent">
-                            {/* {this.state.visiterCount} */}
-                            {/* update this after deploy */}
                             <img src="https://hitwebcounter.com/counter/counter.php?page=7731774&style=0005&nbdigits=5&type=page&initCount=0" title="Total Website Hits" Alt="Web Hits"   border="0" />
                         </div>
                     </div>

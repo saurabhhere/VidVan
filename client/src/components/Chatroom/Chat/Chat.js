@@ -10,7 +10,7 @@ import Input from '../Input/Input';
 import './Chat.css';
 import Navbar from "../../Navbar/Navbar";
 
-const ENDPOINT = 'http://localhost:5000/';
+const ENDPOINT = 'http://vidvanserver.netlify.app/';
 
 let socket;
 

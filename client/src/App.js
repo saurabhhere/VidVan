@@ -1,15 +1,14 @@
 import { Redirect, Route, Switch, BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Rules from './components/QuizGame/Rules/Rules';
 import Result from './components/QuizGame/Result/Result';
 import Home from './components/Home/Home';
 import MemoryGame from './components/MemoryGameMatch/MemoryGame';
-import GameGTW from './components/QuizGame/Guesstheword/Game/GameGTW';
 import SignIn from './components/Chatroom/Join/Join';
 import Chat from './components/Chatroom/Chat/Chat';
 import GameGK from './components/QuizGame/Gk/GameGK';
+import GameGTW from './components/QuizGame/Guesstheword/GameGTW';
 import GameMeaning from './components/QuizGame/WordMeaning/GameMeaning';
 import Learning from './components/Learning/Learning';
 import Ebooks from './components/Ebooks/Ebooks';
@@ -30,7 +29,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        {/* <Navbar /> */}
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/learn" exact component={Learning} />

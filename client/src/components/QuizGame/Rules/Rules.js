@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../../Navbar/Navbar';
 import './Rules.css';
-import pic from './gbrules.png';
 
 class Rules extends Component {
 
