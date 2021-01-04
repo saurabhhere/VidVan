@@ -15,8 +15,8 @@ class GameMenu extends Component{
     render(){
         return(
             <>
-            <Navbar />
             <div className="menubg">
+            <Navbar />
                 <section className="hero-section">
                     <div className="card-gridM">
                         <Link to="/game/memorygame" className="cardM" >

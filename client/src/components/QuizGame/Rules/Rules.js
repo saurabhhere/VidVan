@@ -22,7 +22,7 @@ class Rules extends Component {
         <Navbar />
         <div className="quiz-rules-container">
           <div className="game-rules-pic">
-            <div id="rules-bg" className='rule'>
+            <div id="" className='rule'>
               <div className="info-title"><span className="rules_heading">Some Rules of this Quiz</span></div>
               <div className="info-list">
                 <div className="info">1. You will have only <span className="ruleTime">60 seconds</span> total.</div>

@@ -5,31 +5,33 @@
     background-size: 100% 100%;
     width: 800px;
     height:700px;
-    background-position: center;
-    background-color: #ffffff00;   
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .quiz-rules-container {
     background-color: #ffffff00;
-    margin-left: 380px;
-    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     color: #ffffff;
 }
 
 .rule {
     display: flex;
-    width: 700px;
-    height: 500px;
     justify-content: center;
     align-items: center;
+    width: 700px;
+    height: 450px;
     flex-direction: column;
     font-size: 2.5rem;    
     background-color: #ffffff00;
     
     color: black;
-    margin: 20vh auto;
+    margin: 20px auto;
     border-radius: 10px;
-    padding-top: 20px;
 }
 
 .rules-buttons {

@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import {Card} from 'react-bootstrap';
 import Navbar from '../../Navbar/Navbar';
 import './gram.css';
 

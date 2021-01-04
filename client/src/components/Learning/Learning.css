@@ -4,6 +4,10 @@
   background-size: 100% 100%;
   height: 1200px;
   background-position: 0% 0%;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .learnS{
@@ -42,7 +46,16 @@ line-height: 96px;
 
 color:wheat;
 }
+.carousel-indicators {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .grammar{
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

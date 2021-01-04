@@ -2,11 +2,14 @@ body {
     color: #fff;
 }
 .game-gtw-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     border-radius: 5px;
     width: 1000px;
     background-color: transparent;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     background-position: center;
 }
 
@@ -14,17 +17,20 @@ body {
     border-radius: 5px;
     background-image: url('./quiz-bg.png');
     background-size: 100% 100%;
-    width: 1500px;
+    width: 1400px;
+    padding-right: 200px;
+    padding-bottom: 50px;
     height: 710px;
     background-position: center;
-    background-color: #ffffff00;
-    /* margin-left: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 100px auto;
-
-    
 }
 .quiz-gtw-content-flex {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .choice-containers {
@@ -83,6 +89,7 @@ body {
 
 #question {
     margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* Heads up Display */

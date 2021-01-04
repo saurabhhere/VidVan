@@ -8,6 +8,7 @@ import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
 
 import './Chat.css';
+import Navbar from "../../Navbar/Navbar";
 
 const ENDPOINT = 'http://localhost:5000/';
 
@@ -55,6 +56,8 @@ const Chat = ({ location }) => {
   }
 
   return (
+    <div className="chat-bg">
+    <Navbar />
     <div className="outerContainer">
       <div className="chat-container">
           <InfoBar room={room} />
@@ -62,6 +65,7 @@ const Chat = ({ location }) => {
           <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
       </div>
       <TextContainer users={users}/>
+    </div>
     </div>
   );
 }

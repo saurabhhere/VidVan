@@ -11,7 +11,7 @@ export default function SignIn() {
   window.scrollTo(0, 0);
 
   return (
-    <>
+    <div className="join-bg">
     <Navbar />
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
@@ -27,6 +27,6 @@ export default function SignIn() {
         </Link>
       </div>
     </div>
-    </>
+    </div>
   );
 }

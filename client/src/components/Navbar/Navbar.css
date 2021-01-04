@@ -1,7 +1,5 @@
 .main-navbar {
-    /* background-color: #060b26; */
     background-color: transparent;
-    /* width: 100vw; */
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -41,7 +39,6 @@
   
   .nav-text {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding: 8px 0px 8px 16px;
     list-style: none;
@@ -88,6 +85,10 @@
 
   .nav-menu-items {
     width: 100%;
+  }
+
+  .nav-menu-items .nav-text:hover {
+    transform: scale(1.05);
   }
   
   .navbar-toggle {

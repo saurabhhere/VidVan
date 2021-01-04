@@ -1,17 +1,16 @@
 .gk{
     height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .game-gk-container {
     padding: 20px;
     border-radius: 5px;
-    width: 1000px;
-    /* padding-top: 100px;; */
-    /* background-color: transparent; */
-    margin-left: 80px;
+    width: 900px;
+    margin: 20px auto;
     color: #ffffff;
-   
-
 }
 
 .quiz-gk-pic{
@@ -82,7 +81,7 @@
     color: black ;
     display: flex;
     height: 50px;
-    margin-top: 50px;
+    margin: 30px auto 30px auto;
     justify-content: space-between;
 }
 
