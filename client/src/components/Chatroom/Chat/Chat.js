@@ -10,7 +10,7 @@ import Input from '../Input/Input';
 import './Chat.css';
 import Navbar from "../../Navbar/Navbar";
 
-const ENDPOINT = 'http://vidvanserver.netlify.app/';
+const ENDPOINT = 'https://vidvanserver.herokuapp.com/';
 
 let socket;
 
