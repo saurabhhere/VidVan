@@ -123,12 +123,12 @@ class Game extends Component {
         <div className="memoryGame-flex">
           <div className="memoryGame-instruction">
             <div className="memoryGame-instr-heading" >Instructions</div>
-            <div className="memoryGame-instr-content">1:- Matching Game is the traditional matching game where you flip two cards to see if they match.</div>
-            <div className="memoryGame-instr-content">2:- This game consist of 16 cards that is to be fliped.</div>
-            <div className="memoryGame-instr-content">3:- 8 cards contains images and other 8 consist of a corresponding word to the image.</div>
-            <div className="memoryGame-instr-content">4:- If the two cards are identical, they will disappear.</div>
-            <div className="memoryGame-instr-content">5:- If however, the two cards are not identical, it will automatically be faced down in the same place</div>
-            <div className="memoryGame-instr-content">6:- Make sure that all the cards disappear to complete the game.</div>
+            <div className="memoryGame-instr-content">1. Memory Game is the traditional game where you flip two cards to see if they match</div>
+            <div className="memoryGame-instr-content">2. This game consists of 16 cards that are to be flipped </div>
+            <div className="memoryGame-instr-content">3. 8 cards contain images and the other 8 consists of a corresponding word to the image </div>
+            <div className="memoryGame-instr-content">4. If the card matches its image or word, it will disappear </div>
+            <div className="memoryGame-instr-content">5. If however, the two cards are not matched, it will automatically be flipped again at the same place </div>
+            <div className="memoryGame-instr-content">6. Make sure that all the cards disappear to complete the game</div>
           </div>
           <div className="memoryGame-game">
             <h3 className="memoryGame-score">Score:<span id="memoryGame-result"></span></h3>

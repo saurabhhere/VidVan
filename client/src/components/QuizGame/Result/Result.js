@@ -33,7 +33,7 @@ class Result extends Component {
                             <h1 id="finalScore">{this.state.score}</h1>
                             <h2 id="end-text">Your score</h2>
                             <Link to="/game/quiz/rules" id="playAgainBtn" className="result_btn">Play Again</Link>
-                            <Link to="/learn" id="goHomeBtn" className="result_btn">Go Home</Link>
+                            <Link to="/game" id="goHomeBtn" className="result_btn">Go Home</Link>
                         </div>
                     </div>
                     </div>

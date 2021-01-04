@@ -107,11 +107,15 @@ body {
 
 .hud-prefix {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .hud-main-text {
     text-align: center;
+}
+
+.hud-item #score {
+    font-size: 36px !important;
 }
 
 @media screen and (max-width: 768px){
