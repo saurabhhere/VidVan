@@ -15,7 +15,7 @@ class Footer extends Component {
                             Visitors
                         </div>
                         <div className="visiterCountContent">
-                        <img src="https://hitwebcounter.com/counter/counter.php?page=7734976&style=0005&nbdigits=8&type=page&initCount=1000" title="Free Counter" Alt="web counter"   border="0" />
+                        <img src="https://hitwebcounter.com/counter/counter.php?page=7734976&style=0005&nbdigits=8&type=page&initCount=1000" Alt="Visitors"   border="0" />
                         </div>
                     </div>
                     <div className="contact-us">

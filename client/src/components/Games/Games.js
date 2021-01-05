@@ -1,11 +1,17 @@
 import React,{Component} from 'react';
 import { Link } from 'react-router-dom';
+import {animateScroll as scroll} from 'react-scroll';
 import Navbar from '../Navbar/Navbar';
+import {FiArrowUp} from 'react-icons/fi'
 import './Games.css';
 
 class GameMenu extends Component{
     constructor(props){
         super(props);
+    }
+
+    scrollToTop=()=>{
+        scroll.scrollToTop();
     }
 
     componentDidMount(){
@@ -33,6 +39,7 @@ class GameMenu extends Component{
                         </Link>
                     </div>
                 </section> 
+                <div onClick={this.scrollToTop} className="top-button"><FiArrowUp /></div>
             </div>
             </>
         )

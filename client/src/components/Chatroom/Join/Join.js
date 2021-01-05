@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import {animateScroll as scroll} from 'react-scroll';
+import {FiArrowUp} from 'react-icons/fi'
 import Navbar from '../../Navbar/Navbar';
 
 import './Join.css';
@@ -27,6 +29,7 @@ export default function SignIn() {
         </Link>
       </div>
     </div>
+    <div onClick={() => {scroll.scrollToTop();}} className="top-button"><FiArrowUp /></div>
     </div>
   );
 }
