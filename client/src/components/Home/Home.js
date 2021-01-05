@@ -47,15 +47,15 @@ class Home extends Component {
                         <div className="frontpage-cards-flex">
                             <LinkRoute to='/learn' className="frontpage-card animatable fadeIn"  data-animation="zoomIn">
                                 <img src={learnLogo} alt="learn-logo" className="frontpage-card-logo" />
-                                जानाति    
+                                अध्ययन    
                             </LinkRoute>
                             <LinkRoute to='/game' className="frontpage-card animatable fadeIn"  data-animation="zoomIn" data-animation-delay="300ms">
                                 <img src={gamesLogo} alt="games-logo" className="frontpage-card-logo"/>
-                                क्रीडाः
+                                क्रीडा परीक्ष् च
                             </LinkRoute>
                             <LinkRoute to='/chatroom' className="frontpage-card animatable fadeIn"   data-animation="zoomIn" data-animation-delay="600ms">
                                 <img src={chatLogo} alt="Chatroom-logo" className="frontpage-card-logo"/>
-                                संलपति
+                                संलप्-कक्षः
                             </LinkRoute>
                             <LinkRoute to='/ebooks' className="frontpage-card animatable fadeIn"   data-animation="zoomIn" data-animation-delay="900ms">
                                 <img src={bookLogo} alt="eBooks-logo" className="frontpage-card-logo" />

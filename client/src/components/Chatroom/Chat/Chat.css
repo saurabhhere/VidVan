@@ -2,7 +2,7 @@
   background-image: url('./menu.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 110vh;
+  height: 140vh;
   width: 100%;
 }
 
@@ -28,6 +28,31 @@
   text-align: center;
   font-size: 24px;
   color: white;
+  margin-bottom: 20px;
+}
+
+.chatboard-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chatboard-heading {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.chatboard-flex img {
+  height: 200px;
+  padding: 5px;
+  background-color: white;
+}
+
+.chatboard-flex img:hover  {
+  height: 250px;
+  transition: 0.2s ease-in-out all;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

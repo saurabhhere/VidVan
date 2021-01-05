@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from "react";
 import queryString from 'query-string';
 import io from "socket.io-client";
-
+import board from './chat-board.png';
 import TextContainer from '../TextContainer/TextContainer';
 import Messages from '../Messages/Messages';
 import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
+import {FiArrowUp} from 'react-icons/fi'
+import {animateScroll as scroll} from 'react-scroll';
 
 import './Chat.css';
 import Navbar from "../../Navbar/Navbar";
 
-const ENDPOINT = 'https://vidvanserver.herokuapp.com/';
+const ENDPOINT = 'http://localhost:5000/';
 
 let socket;
 
@@ -67,6 +69,11 @@ const Chat = ({ location }) => {
         <TextContainer users={users} />
       </div>
       <div className="chat-instructions">Note: Use '|' in end if you are ending your message in hindi or Sanskrit. </div>
+      <div className="chatboard-flex">
+        <div className="chatboard-heading">Keyboard Layout</div>
+        <img src={board} title="chatboard" className="chatboard"/>
+      </div>
+    <div onClick={() => {scroll.scrollToTop();}} className="top-button"><FiArrowUp /></div>
     </div>
   );
 }
