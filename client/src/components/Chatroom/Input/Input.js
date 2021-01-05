@@ -7,9 +7,6 @@ import $ from 'jquery';
 
 
 class Input extends Component{
-  constructor(props){
-    super(props);
-  }
 
   componentDidMount(){
     $(document).ready(function () {

@@ -10,10 +10,6 @@ import chatLogo from './icon-chatroom.png';
 import {FiArrowUp} from 'react-icons/fi'
 
 class Home extends Component {
-
-    constructor(props) {
-        super(props);
-    }
     
     componentDidMount(){
         window.scrollTo(0, 0);
@@ -50,19 +46,19 @@ class Home extends Component {
                 <section id="section2-frontpage" className="cd-section section2">
                         <div className="frontpage-cards-flex">
                             <LinkRoute to='/learn' className="frontpage-card animatable fadeIn"  data-animation="zoomIn">
-                                <img src={learnLogo} className="frontpage-card-logo" />
+                                <img src={learnLogo} alt="learn-logo" className="frontpage-card-logo" />
                                 जानाति    
                             </LinkRoute>
                             <LinkRoute to='/game' className="frontpage-card animatable fadeIn"  data-animation="zoomIn" data-animation-delay="300ms">
-                                <img src={gamesLogo} className="frontpage-card-logo"/>
+                                <img src={gamesLogo} alt="games-logo" className="frontpage-card-logo"/>
                                 क्रीडाः
                             </LinkRoute>
                             <LinkRoute to='/chatroom' className="frontpage-card animatable fadeIn"   data-animation="zoomIn" data-animation-delay="600ms">
-                                <img src={chatLogo} className="frontpage-card-logo"/>
+                                <img src={chatLogo} alt="Chatroom-logo" className="frontpage-card-logo"/>
                                 संलपति
                             </LinkRoute>
                             <LinkRoute to='/ebooks' className="frontpage-card animatable fadeIn"   data-animation="zoomIn" data-animation-delay="900ms">
-                                <img src={bookLogo} className="frontpage-card-logo" />
+                                <img src={bookLogo} alt="eBooks-logo" className="frontpage-card-logo" />
                                 ई-पुस्तकम्
                             </LinkRoute>
                         </div>
@@ -71,26 +67,26 @@ class Home extends Component {
                         <h3 className="frontpage-news-heading">प्रसारमाध्यमानि वार्ताश्च </h3>
                     <div className="news-section-flex">
                     <div>
-                    <iframe className="news-iframe" width="620" height="490" src="https://www.youtube.com/embed/videoseries?list=PLxx0m3vtiqMZFiQHDHKnhK6ObQo-Xhr4u&index=1&autoplay=0&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" allowfullscreen ></iframe>
+                    <iframe className="news-iframe" width="620" height="490" src="https://www.youtube.com/embed/videoseries?list=PLxx0m3vtiqMZFiQHDHKnhK6ObQo-Xhr4u&index=1&autoplay=0&mute=1" title="Sanskrit-news" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" allowfullscreen ></iframe>
                     </div>
                     <div className="magazine-flex">
                         <div className="e-newspaper">
-                        <a href="https://www.vishvasyavrutantam.com/ENewspaper" target="_blank">
+                        <a href="https://www.vishvasyavrutantam.com/ENewspaper" rel="noreferrer" target="_blank">
                         <div className="magazine-paper"></div>
                         <div className="magazine-paper-heading">E-newspaper</div>
                         </a>
                         </div>
                         <div className="magazine-row">
                         <div className="e-newspaper">
-                        <a href="http://www.sanskrit.nic.in/news_letters.php" target="_blank"><div id="sanskritavarta" className="magazine"></div>
+                        <a href="http://www.sanskrit.nic.in/news_letters.php" rel="noreferrer" target="_blank"><div id="sanskritavarta" className="magazine"></div>
                         <div className="magazine-heading">संस्कृतावतार</div>
                         </a></div>
                         <div className="e-newspaper">
-                        <a href="https://www.chandamama.in/sanskrit/sanskrit.php" target="_blank"><div id="chandamama" className="magazine"></div>
+                        <a href="https://www.chandamama.in/sanskrit/sanskrit.php" rel="noreferrer" target="_blank"><div id="chandamama" className="magazine"></div>
                         <div className="magazine-heading">चन्दामामा</div>
                         </a> </div>
                         <div className="e-newspaper">
-                        <a href="http://www.samprativartah.in/" target="_blank"><div id="samprativartah" className="magazine"></div>
+                        <a href="http://www.samprativartah.in/" rel="noreferrer" target="_blank"><div id="samprativartah" className="magazine"></div>
                         <div className="magazine-heading">सम्प्रतिवार्ताह्</div>
                         </a></div>
                         </div>

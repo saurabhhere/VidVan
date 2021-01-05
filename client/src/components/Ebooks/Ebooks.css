@@ -1,9 +1,8 @@
 .ebooks-container {
     padding-bottom: 150px;
-    background: url('./ebook-bg-min.png');
+    background: url('./ebook-bg.png');
     background-size: 100% 100% ;
-    background-repeat: no-repeat;    
-}
+  }
 
 .ebooks-page-heading {
     color: white;

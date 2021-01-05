@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './Footer.css';
 import {AiFillYoutube, AiOutlineTwitter, AiFillFacebook, AiFillInstagram} from 'react-icons/ai'
 class Footer extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (

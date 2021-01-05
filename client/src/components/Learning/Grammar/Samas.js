@@ -3,9 +3,6 @@ import Navbar from '../../Navbar/Navbar';
 import './gram.css'
 
 class Samas extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     componentDidMount() {
         window.scrollTo(0, 0);

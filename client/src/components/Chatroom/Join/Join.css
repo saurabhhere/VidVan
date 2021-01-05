@@ -1,7 +1,7 @@
 .join-bg {
   height: 100vh;
   width: 100%;
-    background-image: url('./g2.png');
+    background-image: url('./join-bg.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }

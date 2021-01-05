@@ -1,10 +1,4 @@
-﻿
-//*********************Adds Inscript Typing functionality where ever It finds a class named "Inscript" ***************//
-//*****************************Edited/Updated by Coding Keeda************************************//
-
-import jQuery from 'jquery';
-import $ from 'jquery';
-import React from 'react'
+﻿import $ from 'jquery';
  
 var RTSPL = {};
 RTSPL.util = {

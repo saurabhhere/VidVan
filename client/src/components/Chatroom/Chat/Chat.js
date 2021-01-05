@@ -30,26 +30,26 @@ const Chat = ({ location }) => {
     setName(name)
 
     socket.emit('join', { name, room }, (error) => {
-      if(error) {
+      if (error) {
         alert(error);
       }
     });
   }, [ENDPOINT, location.search]);
-  
+
   useEffect(() => {
     socket.on('message', message => {
-      setMessages(messages => [ ...messages, message ]);
+      setMessages(messages => [...messages, message]);
     });
-    
+
     socket.on("roomData", ({ users }) => {
       setUsers(users);
     });
-}, []);
+  }, []);
 
   const sendMessage = (event) => {
     event.preventDefault();
     console.log('entered in sendMessage')
-    if(message) {
+    if (message) {
       console.log('sendMessage emitted')
       socket.emit('sendMessage', message, () => setMessage(''));
     }
@@ -57,15 +57,16 @@ const Chat = ({ location }) => {
 
   return (
     <div className="chat-bg">
-    <Navbar />
-    <div className="outerContainer">
-      <div className="chat-container">
+      <Navbar />
+      <div className="outerContainer">
+        <div className="chat-container">
           <InfoBar room={room} />
           <Messages messages={messages} name={name} />
           <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
+        </div>
+        <TextContainer users={users} />
       </div>
-      <TextContainer users={users}/>
-    </div>
+      <div className="chat-instructions">Note: Use '|' in end if you are ending your message in hindi or Sanskrit. </div>
     </div>
   );
 }

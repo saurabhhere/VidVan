@@ -11,9 +11,9 @@ import {animateScroll as scroll} from 'react-scroll';
 import {FiArrowUp} from 'react-icons/fi'
 
 class Learning extends Component{
-    constructor(props){
-        super(props);
-    }
+    // constructor(props){
+    //     super(props);
+    // }
 
     componentDidMount(){
     window.scrollTo(0, 0);

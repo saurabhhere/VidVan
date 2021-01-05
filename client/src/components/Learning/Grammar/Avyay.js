@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-import { Card } from 'react-bootstrap';
 import Navbar from '../../Navbar/Navbar';
 import './gram.css';
 
 class Avyay extends Component {
-    constructor(props) {
-        super(props);
-    }
-
+    
     componentDidMount() {
         window.scrollTo(0, 0);
     }

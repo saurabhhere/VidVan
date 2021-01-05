@@ -6,9 +6,6 @@ import {FiArrowUp} from 'react-icons/fi'
 import './Games.css';
 
 class GameMenu extends Component{
-    constructor(props){
-        super(props);
-    }
 
     scrollToTop=()=>{
         scroll.scrollToTop();

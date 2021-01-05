@@ -26,7 +26,7 @@ class Ebooks extends Component {
                             <figcaption>
                                 <h2>Wikner's Sanskrit Introductory</h2>
                                 <p>Click to view the file.</p>
-                                <a href="https://sanskritdocuments.org/learning_tutorial_wikner/wikner.pdf" target="_blank"></a>
+                                <a href="https://sanskritdocuments.org/learning_tutorial_wikner/wikner.pdf" rel="noreferrer" target="_blank"></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -36,7 +36,7 @@ class Ebooks extends Component {
                             <figcaption>
                                 <h2>Srimad bhagavad gita in Sanskrit Hindi and English</h2>
                                 <p>Click to download the file.</p>
-                                <a href="https://drive.google.com/uc?export=download&id=1ubtSUzyReh2v_BvvadeWP5uzLFZOhYQ1" target="_blank"></a>
+                                <a href="https://drive.google.com/uc?export=download&id=1ubtSUzyReh2v_BvvadeWP5uzLFZOhYQ1" rel="noreferrer" target="_blank"></a>
                             </figcaption>
                         </figure>
                     </div>
