@@ -14,6 +14,9 @@ We believe that our product VIDVAN can meet the market’s requirements in the b
 You can **view the site live [here](https://vidvan.netlify.app/)**
  
 ### Preview:
+**Home Page**
+![vidvanfull](https://user-images.githubusercontent.com/60233336/111864325-369fd700-8986-11eb-9aaf-69f48150f51e.png)
+
 
 **Chatroom**
 
